@@ -24,17 +24,17 @@ To start streamlit web application, assuming a fresh operating system is install
     - Install Python 3.9+ (Newer versions should work though 3.9 was used during development)
         - https://www.python.org/downloads/
     - Open PyCharm, click "open project", and navigate to the folder which contains the repository files.
-    - Once the project is opened, Click the drop-down next to the run button on the top right and edit the configuration. In the "Script path:" field                 navigate to the Main.py file.
-    - In the interpreter field select the interpreter of the installed Python version and apply. If the interpreter is not populating, apply and navigate to         the File->Settings->Project-Python Interpreter setting and locate and apply your interpreter.
+    - Once the project is opened, Click the drop-down next to the run button on the top right and edit the configuration. In the "Script path:" field navigate to the Main.py file.
+    - In the interpreter field select the interpreter of the installed Python version and apply. If the interpreter is not populating, apply and navigate to the File->Settings->Project-Python Interpreter setting and locate and apply your interpreter.
     - After the interpreter is applied a virtual environment which includes Pip should be created.
-    - Navigate to the terminal tab at the bottom of the main project page and expand it. At the top of the tab click the dropdown arrow and open a new               terminal.
-    - This terminal should be using the newly created virtual environment which is denoted by a "(<venv-name>)" appearing next to the current command line.           If this is not the case ensure you are in a newly created terminal, not a powershell.
+    - Navigate to the terminal tab at the bottom of the main project page and expand it. At the top of the tab click the dropdown arrow and open a new terminal.
+    - This terminal should be using the newly created virtual environment which is denoted by a "(<venv-name>)" appearing next to the current command line. If this is not the case ensure you are in a newly created terminal, not a powershell.
     - Next, run the "pip install <package_name>" command for each of the packages below:
         - Steamlit
         - Numpy
         - Tensorflow
         - PIL
-    - Once all dependancies are installed confirm your terminal is in the same directory as the Main.py file and run the command "streamlit run Main.py" to           start the web application. A browser should automatically open, but a web address will be provided should you need to manually open one.
+    - Once all dependancies are installed confirm your terminal is in the same directory as the Main.py file and run the command "streamlit run Main.py" to start the web application. A browser should automatically open, but a web address will be provided should you need to manually open one.
 ### Application Usage
 
 The web application consists of two pages. These pages can be navigated to by opening the sidebar and selecting the desired radio button.
